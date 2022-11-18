@@ -7,14 +7,12 @@ import IMG4 from '../../assests/portfolio4.jpg'
 import IMG5 from '../../assests/portfolio5.png'
 import IMG6 from '../../assests/portfolio6.jpg'
 
-
 const data =[
 {
    id:1,
-   image: IMG2,
+   image: IMG1,
    title: 'Portfolio website',
-   github: 'https://github.com/Muthuhari/react-portfolio-1',
-   
+   github: 'https://github.com/Muthuhari/react-portfolio-1',  
 },
 
 {id:1,
