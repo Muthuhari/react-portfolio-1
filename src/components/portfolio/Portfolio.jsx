@@ -12,37 +12,41 @@ const data =[
 {
    id:1,
    image: IMG2,
-   title: 'Crypto Currency Dashbord & Financial Visualization',
-   github: 'https://github.com',
-   demo: 'https://dribbble.com/shots/19103845-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+   title: 'Portfolio website',
+   github: 'https://github.com/Muthuhari/react-portfolio-1',
+   
 },
 
 {id:1,
   image: IMG2,
-  title: 'Charts template & infographics in Figma',
-  github: 'https://github.com',
-  demo: 'https://dribbble.com/shots/19103845-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+  title: 'Lung Sounds Classification System',
+  github: 'https://github.com/Muthuhari/lung-sounds-classification-system',
+  
 },
 {id:1,
   image: IMG3,
-  title: 'Figma dashborad UI kit for data design web app',
-  github: 'https://github.com',
-  demo: 'https://dribbble.com/shots/19103845-Orion-UI-kit-Charts-templates-infographics-in-Figma'},
+  title: 'SAMPLE',
+  github: 'https://github.com/Muthuhari',
+},
+ 
 {id:1,
   image: IMG4,
-  title: 'MAintaining tasks and tracking progress',
-  github: 'https://github.com',
-  demo: 'https://dribbble.com/shots/19103845-Orion-UI-kit-Charts-templates-infographics-in-Figma'},
+  title: 'SAMPLE',
+  github: 'https://github.com/Muthuhari',
+},
+  
 {id:1,
   image: IMG5,
-  title: 'Charts template & infographics in Figma',
-  github: 'https://github.com',
-  demo: 'https://dribbble.com/shots/19103845-Orion-UI-kit-Charts-templates-infographics-in-Figma'},
+  title: 'SAMPLE',
+  github: 'https://github.com/Muthuhari',
+},
+  
 {id:1,
   image: IMG6,
-  title: 'Charts template & infographics in Figma',
-  github: 'https://github.com',
-  demo: 'https://dribbble.com/shots/19103845-Orion-UI-kit-Charts-templates-infographics-in-Figma'},
+  title: 'SAMPLE',
+  github: 'https://github.com/Muthuhari',
+},
+  
 
 ]
 
@@ -67,7 +71,6 @@ const Portfolio = () => {
           <h3>{title} </h3>
           <div className="portfolio__item-cta">
             <a href={github} className='btn' target='_blank'>Github</a>
-            <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
           </article>
 
