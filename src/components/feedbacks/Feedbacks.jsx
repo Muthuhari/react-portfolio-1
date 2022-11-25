@@ -1,5 +1,5 @@
 import React from 'react'
-import './testimonials.css'
+import './feedbacks.css'
 import AVTR1 from '../../assests/avatar1.jpg'
 import AVTR2 from '../../assests/avatar2.jpg'
 import AVTR3 from '../../assests/avatar3.jpg'
@@ -45,13 +45,13 @@ const data =[
 
 
 
-const Testimonials = () => {
+const Feedbacks = () => {
   return (
-    <section id='testimonials'>
+    <section id='feedbacks'>
       <h5> Review from clients</h5>
-      <h2>Testimonials</h2>
+      <h2>Feedbacks</h2>
 
-      <Swiper className="container testimonials__container"
+      <Swiper className="container feedbacks__container"
            // install Swiper modules
            modules={[Pagination]}
            spaceBetween={40}
@@ -61,7 +61,7 @@ const Testimonials = () => {
         {
           data.map(({avatar, name, review }, index) => {
             return (
-              <SwiperSlide key={index} className="testimonials">
+              <SwiperSlide key={index} className="feedbacks">
               <div className="client__avatar">
                 <img src={avatar}/>
                 </div>
@@ -79,4 +79,4 @@ const Testimonials = () => {
   )
 }
 
-export default Testimonials
+export default Feedbacks
