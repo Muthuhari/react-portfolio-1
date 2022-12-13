@@ -23,14 +23,14 @@ const data =[
 },
 {id:1,
   image: IMG3,
-  title: 'SAMPLE',
-  github: 'https://github.com/Muthuhari',
+  title: 'MernCrud Application',
+  github: 'https://github.com/Muthuhari/mernCrud',
 },
  
 {id:1,
   image: IMG4,
-  title: 'SAMPLE',
-  github: 'https://github.com/Muthuhari',
+  title: 'Login System',
+  github: 'https://github.com/Muthuhari/Login-App',
 },
   
 {id:1,
